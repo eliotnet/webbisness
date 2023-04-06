@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi página web</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Enlace a hoja de estilos CSS -->
+	<link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+	<header>
+		<!-- Encabezado de la página -->
+		<h1>Bienvenidos a mi página web hola</h1>
+		<nav>
+			<!-- Menú de navegación -->
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Acerca de</a></li>
+				<li><a href="#">Contacto</a></li>
+                <li><a href="publicar.html">Publicar</a></li>
+
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<!-- Contenido principal de la página -->
+		<section>
+            <h1>Publicaciones</h1>
+<?php include("publicaciones.php"); ?>
+
+		</section>
+		<section>
+			<h2>Sección 2</h2>
+			<p>Este es el contenido de la sección 2.</p>
+		</section>
+	</main>
+	<footer>
+		<!-- Pie de página -->
+		<p>Derechos reservados &copy; 2023</p>
+	</footer>
+	<!-- Enlace a archivo de script JavaScript -->
+	<script src="script.js"></script>
+</body>
+</html>

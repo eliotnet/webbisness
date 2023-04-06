@@ -1,0 +1,104 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Estilos para el encabezado de la página */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Estilos para el menú de navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Estilos para el contenido principal de la página */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+}
+
+section p {
+    line-height: 1.5;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+/*publicar campo*/
+/* Estilo para los campos del formulario */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  textarea {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilo para el botón de envío */
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
